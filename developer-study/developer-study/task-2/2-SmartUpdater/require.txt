@@ -1,0 +1,3 @@
+DELETE(number,-,-,-);
+DELETE(indices,-,-,-);
+DELETE(exists,-,-,-);
