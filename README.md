@@ -7,7 +7,7 @@ Here, we develop a full-fledged compiler, SmartUpdater, for stateful smart contr
 
 ## Repository Structure
 
-- **<a href="./SmartUpdater">./compiler/</a>** - Contains the core implementation of SmartUpdater, including the operations in initial deployment and the futher maintenance.
+- **<a href="./SmartUpdater">./SmartUpdater/</a>** - Contains the core implementation of SmartUpdater, including the operations in initial deployment and the futher maintenance.
 
 - **<a href="./data">./data/</a>** - Contains all the datasets we used for evaluation.
 
