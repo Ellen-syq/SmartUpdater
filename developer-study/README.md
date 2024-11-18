@@ -10,6 +10,7 @@ This repository hosts the materials related to the developer study conducted for
     `./developer-study-introduction.pdf`)
     * Answer Submission: Participants can submit their responses using the spreadsheet located at(file: `./answers.ods`)
     * Task Files: The tasks outlined in the introduction are included in the folders(files: `./task-{1,2}/`)
+         * DSL Design Document: the design guide for the domain-specific language (DSL) used in SmartUpdater(files: `./task-2/2-SmartUpdater/`).
 
 * <a href="./study-results">./study-results/</a> - Contains the aggregated results of the study:
     * `results-answers.ods` - A spreadsheet with the all results.
