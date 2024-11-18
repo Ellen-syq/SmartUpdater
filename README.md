@@ -1,8 +1,8 @@
 # SmartUpdater
 
-This repository contains the code for the paper "SmartUpdater: Enabling Transparent, Automated, and Secure Upgrading of Stateful Smart Contracts". 
+This repository contains the code for the paper "SmartUpdater: Enabling Transparent, Automated, and Secure Maintenance of Stateful Smart Contracts". 
 
-Here, we develop a full-fledged compiler, SmartUpdater, for stateful smart contract maintenance.
+Here, we develop a tool chain, SmartUpdater, for stateful smart contract maintenance.
 
 
 ## Repository Structure
