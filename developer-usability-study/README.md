@@ -1,4 +1,4 @@
-# SmartUpdater Developer Study
+# SmartUpdater Developer Usability Study
 
 This repository hosts the materials related to the developer study conducted for our paper, *SmartUpdater: Enabling Transparent, Automated, and Secure Upgrading of Stateful Smart Contracts* 
 

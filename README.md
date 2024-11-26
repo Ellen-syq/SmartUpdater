@@ -11,7 +11,7 @@ Here, we develop a tool chain, SmartUpdater, for stateful smart contract mainten
 
 - **<a href="./data">./data/</a>** - Contains all the datasets we used for evaluation.
 
-- **<a href="./developer-study">./developer-study/</a>** - Provides the materials related to the developer usability study of SmartUpdater.
+- **<a href="./developer-usability-study">./developer-usability-study/</a>** - Provides the materials related to the developer usability study of SmartUpdater.
 
 
 
