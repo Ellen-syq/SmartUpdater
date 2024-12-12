@@ -9,6 +9,9 @@ contract Proxy {
 
 contract BancorKillerContract { 
 
+  using SafeMath for uint256;
+
+
   address public admin;
 
   address public base_token;
@@ -247,4 +250,56 @@ contract BancorKillerContract {
 
   }
 
+}
+
+contract BancorKiller { 
+
+  function create_a_new_market(address _base_token, address _traded_token, uint _base_token_seed_amount, uint _traded_token_seed_amount, uint _commission_ratio) public {
+
+    new BancorKillerContract(_base_token, _traded_token, _base_token_seed_amount, _traded_token_seed_amount, _commission_ratio);
+
+  }
+  
+  function() public payable {
+
+    revert();
+
+  }
+
+}
+
+library SafeMath {
+
+  function mul(uint256 a, uint256 b) internal pure returns (uint256 c) {
+    if (a == 0) {
+      return 0;
+    }
+    c = a * b;
+    assert(c / a == b);
+    return c;
+  }
+
+  function div(uint256 a, uint256 b) internal pure returns (uint256) {
+    return a / b;
+  }
+
+  function sub(uint256 a, uint256 b) internal pure returns (uint256) {
+    assert(b <= a);
+    return a - b;
+  }
+
+  function add(uint256 a, uint256 b) internal pure returns (uint256 c) {
+    c = a + b;
+    assert(c >= a);
+    return c;
+  }
+
+}
+
+contract Token {
+ 
+  function transferFrom(address from, address to, uint256 tokens) public returns (bool success);
+
+  function transfer(address to, uint256 tokens) public returns (bool success);
+     
 }

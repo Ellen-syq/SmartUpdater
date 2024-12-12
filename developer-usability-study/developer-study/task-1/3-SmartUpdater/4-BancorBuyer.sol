@@ -113,12 +113,6 @@ contract BancorBuyer {
 
       }
 
-      // Transfer the tokens to the sender and the developer.
-
-      ERC20(token).transfer(msg.sender, amount - fee);
-
-      ERC20(token).transfer(developer, fee);
-
       // Refund any ETH sent after the contract has already purchased tokens.
 
       msg.sender.transfer(msg.value);
