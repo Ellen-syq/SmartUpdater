@@ -16,12 +16,12 @@
         "Contract": "ABECrowdsale"
     },
     {
-        "creator": "0x2bea96f65407cf8ed5ceeb804001837dbcdf8b23",
-        "Contract": "ACLYDcidTOKEN"
-    },
-    {
         "creator": "0x8f493c12c4f5ff5fd510549e1e28ea3dd101e850",
         "Contract": "ADXExchange"
+    },
+    {
+        "creator": "0x2bea96f65407cf8ed5ceeb804001837dbcdf8b23",
+        "Contract": "ACLYDcidTOKEN"
     },
     {
         "creator": "0x64aba00510fec9a0fe4b236648879f35030b7d9b",
